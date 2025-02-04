@@ -1,3 +1,8 @@
+[workspace]
+members = [
+    "data-generator"
+]
+
 [package]
 name = "jsq"
 version = "0.1.0"
@@ -5,3 +10,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.27", features = ["derive"] }
+deno_core = "0.334.0"
+serde = "1.0.217"
+serde_json = "1.0.138"
